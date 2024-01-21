@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+color: aliceblue;
+
+
+}
+#nav_bar{
+    background-color: black;
+    height: 20vh;
+
+}
+#logo{
+    background-color: rgb(241, 144, 17);
+}
+button{
+    background: #c6e70a;
+}
+a{
+    margin-right: 100px;
+}
