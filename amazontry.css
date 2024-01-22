@@ -164,12 +164,98 @@ padding: 10px;;
 
 }
 /* shop section */
-.box{
+.shop-section .box {
     border: 2px solid black;
-    height: 100px;
+    height: 200px;
     width: 20vw; 
+    margin-top: 12px;
+    background-color: #fcfcfc;
+
+
 }
 
-.shop-section{
+.shop-section {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+ 
+ 
+
 }
+.box-img{
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom:  1 rem;
+margin-top: 1 rem ;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.box-content p{
+    color:rgb(180, 30, 3)
+ }
+
+ footer{
+    margin-top: 15px;
+ }
+ .foot-panel1
+ {
+   background-color: #0f3a2f; 
+   color: azure;
+   height: 50px;
+
+   display: flex;
+   justify-content: center;
+   align-items:   center;
+
+ }
+ .foot-panel2
+ {
+    background-color: #44aa88;
+    color:rgb(8, 1, 1) ;
+height: 300px;
+
+display: flex;
+justify-content: space-evenly;
+ }
+ ul{
+    margin-top: 10px;
+ }
+ ul  a{
+    display: block;
+    font-size: .85 rem;
+    margin-top: 10px;
+    color:rgb(11, 70, 70) ;
+ }
+ .foot-panel3
+ {
+    background-color: #44aa88;
+    color:rgb(8, 1, 1) ;
+    border-top: .5px solid #ffffff;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items:   center;
+
+ }
+
+ .foot-panel3 .logo{
+    background-image: url("am.png");
+    height: 30px;
+   width: 100%;
+    background-size: cover;
+ }
+
+ .foot-panel4 {
+    font-size: 15px;
+    margin-right: 50vw;
+   
+    align-items: center;
+    justify-content: center;
+   
+}
+
